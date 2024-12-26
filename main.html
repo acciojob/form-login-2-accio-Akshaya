@@ -7,14 +7,21 @@
 </head>
 
 <body>
-	<form id="userform" onsubmit ="displayFormInfo()">
-		First Name:<input type="text" name="fname"><br>
-		Last Name: <input type="text" name="lname"><br>
-		Phone Number:<input type="tel" name="phone"><br>
-		Email ID: <input type="email" name="email"><br>
-		<input type="submit" value="submit">
-		
-	</form>
+	<form id="userForm" onsubmit="displayFormInfo(event);">
+        <label for="fname">First Name:</label>
+        <input type="text" name="First Name" id="fname"><br><br>
+        
+        <label for="lname">Last Name:</label>
+        <input type="text" name="Last Name" id="lname"><br><br>
+        
+        <label for="phone">Phone Number:</label>
+        <input type="text" name="Phone Number" id="phone"><br><br>
+        
+        <label for="email">Email ID:</label>
+        <input type="email" name="Email ID" id="email"><br><br>
+        
+        <input type="submit" value="Submit">
+    </form>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
