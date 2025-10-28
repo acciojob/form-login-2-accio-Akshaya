@@ -6,10 +6,7 @@ function showAlert(){
 	var email = document.getElementById("email").value;
 
 
-	var message = " First Name: "+ firstName +
-		           " Last Name: "+ lastName +
-		           " Phone Number: "+ phone +
-		           " Email ID: "+ email;
+	 const message = `First Name: ${firstName} Last Name: ${lastName} Phone Number: ${phone} Email ID: ${email}`;
 
 	alert(message);
 }
